@@ -1,0 +1,26 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.navbar {
+    background-color: rgba(10, 43, 191, 0.8);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ccc;
+    color: #000;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ccc;
+}
