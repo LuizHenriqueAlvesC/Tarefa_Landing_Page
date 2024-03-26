@@ -7,12 +7,27 @@ body {
 }
 
 .navbar {
-    background-color: rgba(10, 43, 191, 0.8);
+    background-color: rgba(10, 43, 191);
+}
+
+.text-colored {
+    color:  rgba(10, 43, 191);
+}
+
+#sobre-a-loja,
+#todos-os-cursos {
+    background-color: #c9d5ec;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #ccc;
     color: #000;
+}
+
+.nav-cursos .nav-link.active,
+#fale-conosco button {
+    background-color: rgba(10, 43, 191);
+    color: #fff;
 }
 
 .navbar-brand,
@@ -23,4 +38,25 @@ body {
 
 .navbar-toggler {
     background-color: #ccc;
+}
+
+.carousel-item img {
+    height: 720px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
 }
